@@ -1,0 +1,13 @@
+[package]
+name = "lau-measure-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-measure-theory"
+description = "Measure theory foundations: sigma-algebras, measures, Lebesgue integration, convergence theorems, product measures, Radon-Nikodym, and L^p spaces"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
